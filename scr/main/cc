@@ -11,6 +11,6 @@ public class DivisibilityCheck {
     }
 
     // Method to check if dividend is divisible by divisor
-    public static boolean isDivisible(int dividend, int divisor) {
+    public static boolean isDivisible(int dividen, int divisor) {
         return dividend % divisor == 0;
     }
