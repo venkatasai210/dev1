@@ -1,0 +1,17 @@
+ public class DivisibilityCheck {
+    public static void main(String[] args) {
+        int dividend = 10;
+        int divisor = 5;
+
+        if (isDivisible(dividend, divisor)) {
+            System.out.println(dividend + " is divisible by " + divisor);
+        } else {
+            System.out.println(dividend + " is not divisible by " + divisor);
+        }
+    }
+
+    // Method to check if dividend is divisible by divisor
+    public static boolean isDivisible(int dividend, int divisor) {
+        return dividend % divisor == 0;
+    }
+}
